@@ -25616,8 +25616,8 @@ break $label0$0}if("TextInputAction.continueAction"===a){s=B.bbC
 break $label0$0}if("TextInputAction.join"===a){s=B.bbD
 break $label0$0}if("TextInputAction.route"===a){s=B.bbv
 break $label0$0}if("TextInputAction.emergencyCall"===a){s=B.bbw
-break $label0$0}if("TextInputAction.done"===a){s=B.wn
-break $label0$0}if("TextInputAction.newline"===a){s=B.a9B
+break $label0$0}if("TextInputAction.done"===a){s=B.a9B
+break $label0$0}if("TextInputAction.newline"===a){s=B.wn
 break $label0$0}s=A.Y(A.uC(A.a([A.pm("Unknown text input action: "+a)],t.D)))}return s},
 c19(a){var s
 $label0$0:{if("FloatingCursorDragState.start"===a){s=B.CP
@@ -107624,7 +107624,7 @@ l=q.ay
 if(q.R)k=!o||!n
 else k=!1
 q=q.p4
-if(q==null)q=p.k(0,B.lZ)?B.a9B:B.wn
+if(q==null)q=p.k(0,B.lZ)?B.wn:B.a9B
 j=h.a
 i=j.dy
 j=j.b9
@@ -156179,8 +156179,8 @@ B.bbt=new A.kn(0,"none")
 B.bbu=new A.kn(1,"unspecified")
 B.bbv=new A.kn(10,"route")
 B.bbw=new A.kn(11,"emergencyCall")
-B.a9B=new A.kn(12,"newline")
-B.wn=new A.kn(2,"done")
+B.wn=new A.kn(12,"newline")
+B.a9B=new A.kn(2,"done")
 B.bbx=new A.kn(3,"go")
 B.bby=new A.kn(4,"search")
 B.bbz=new A.kn(5,"send")
